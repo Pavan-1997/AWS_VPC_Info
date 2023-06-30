@@ -92,11 +92,13 @@ AWS (Amazon Web Services) provides multiple layers of security to protect resour
 Security Group:
 
 Inbound means traffic coming in to EC2
+
 Outbound means traffic going out of EC2
 
 NACL:
 
 Inbound rules means traffic coming in to Subnet 
+
 Outbound rules means traffic going out of Subnet 
 
 ---
