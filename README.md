@@ -59,10 +59,7 @@ VPN connections
     Connect your VPCs to your on-premises networks using AWS Virtual Private Network (AWS VPN).
 
 
-## Resources 
 
 VPC with servers in private subnets and NAT
-
-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
 
 ![image](https://github.com/Pavan-1997/AWS_VPC_Info/assets/32020205/bbda20ab-9579-4693-b9c8-42f4e904b498)
