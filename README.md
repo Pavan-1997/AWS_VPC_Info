@@ -87,3 +87,26 @@ AWS (Amazon Web Services) provides multiple layers of security to protect resour
         They are stateless, which means that if an inbound rule allows traffic, the corresponding outbound traffic must be explicitly allowed using a separate outbound rule.
         Changes made to NACL rules may take some time to propagate to all the resources using the associated subnet.
 
+---
+
+Security Group:
+
+Inbound means traffic coming in to EC2
+Outbound means traffic going out of EC2
+
+NACL:
+
+Inbound rules means traffic coming in to Subnet 
+Outbound rules means traffic going out of Subnet 
+
+---
+
+![image](https://github.com/Pavan-1997/AWS_VPC_Info/assets/32020205/41bb13cc-9713-4129-8395-5766a4df1bea)
+
+- When creating VPC, AWS creates: Subnets(Public & Private) in all availability zones of a region | Route Tables(Public & Private) | Network Connections(Internet Gateway & VPC Endpoint)
+- The traffic can be filtered from both NACL at Subnet level or Security Group at EC2 instance level
+- Traffic flows through the least Rule Number in NACL
+- The last Rule Number in NACL is * which denies all the traffic
+- Eg: If an app is running at port 8000, opened at Security Group but can't access from the Internet because NACL has a rule to deny
+
+
