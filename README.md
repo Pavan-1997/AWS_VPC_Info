@@ -1,5 +1,10 @@
 # AWS_VPC_LB_ASG_Bastion
 
+![image](https://github.com/Pavan-1997/AWS_VPC_LB_ASG_Bastion/assets/32020205/feaebb01-456d-45e5-aeb0-0139f35d300e)
+
+This Project demonstrates how to create a VPC that you can use for servers in a production environment. To improve resiliency, you deploy the servers in two Availability Zones, by using an Auto Scaling group and an Application Load Balancer. For additional security, you deploy the servers in private subnets. The servers receive requests through the load balancer. The servers can connect to the internet by using a NAT gateway. To improve resiliency, you deploy the NAT gateway in both Availability Zones. 
+
+The VPC has public subnets and private subnets in two Availability Zones. Each public subnet contains a NAT gateway and a load balancer node. The servers run in the private subnets, are launched and terminated by using an  Auto Scaling group, and receive traffic from the load balancer. The servers can connect to the internet by using the NAT gateway.
 
 1. Goto VPC in AWS Console 
 
@@ -202,9 +207,11 @@ python3 -m http.server 8000
    You should be able to view the applications hosted on both the instances by refreshing the LB shown as below:
    
 ![LB1](https://github.com/Pavan-1997/AWS_VPC_LB_ASG_Bastion/assets/32020205/396f5ccc-9603-49e5-9113-02c973eaaa14)
+
 (This is on EC2 instance 1 in a private subnet) 
 
 ![LB2](https://github.com/Pavan-1997/AWS_VPC_LB_ASG_Bastion/assets/32020205/fffbd86c-d0b5-4d87-aeaf-b637e3833a82)
+
 (This is on EC2 instance 2 in a private subnet) 
 
    
