@@ -111,10 +111,10 @@
 	But for connecting to the EC2 we nned to have Keypair in the Bastion for which we need to copy bthe Keypair from the Local to the Bastion and then 
         connecting to the Bastion and using the Keypair to connect to teh EC2
 
-To copy to Bastion from the Local
-'''
+	To copy to Bastion from the Local
+```
 scp -i /c/Users/pavan/Downloads/AWSKEYPAIR.pem /c/Users/pavan/Downloads/AWSKEYPAIR.pem ubuntu@3.145.106.67:/home/ubuntu
-'''
+```
 
 8. SSH to the Bastion host using the Public IP of it 
 
@@ -122,9 +122,9 @@ Verify the file copied
 
 
 9. Now logging into the one of the EC2 in private subnet from the Bastion
-'''
+```
 sudo ssh -i AWSKEYPAIR.pem ubuntu@10.0.153.204
-'''
+```
 
 Now your logged into the EC2 instance
 
@@ -134,7 +134,7 @@ Now your logged into the EC2 instance
 vim index.html
 
 Add the below and save it
-'''
+```
 
 <!DOCTYPE html>
 <html>
@@ -148,11 +148,10 @@ Add the below and save it
 
 </body>
 </html>
-'''
-
-'''
+```
+```
 python3 -m http.server 8000
-'''
+```
 
 (Creates a HTTP service for running the HTML)
 
