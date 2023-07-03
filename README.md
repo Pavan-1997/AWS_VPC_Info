@@ -118,7 +118,7 @@ scp -i /c/Users/pavan/Downloads/AWSKEYPAIR.pem /c/Users/pavan/Downloads/AWSKEYPA
 
 8. SSH to the Bastion host using the Public IP of it 
 
-Verify the file copied
+	Verify the file copied
 
 
 9. Now logging into the one of the EC2 in private subnet from the Bastion
@@ -126,7 +126,7 @@ Verify the file copied
 sudo ssh -i AWSKEYPAIR.pem ubuntu@10.0.153.204
 ```
 
-Now your logged into the EC2 instance
+	Now your logged into the EC2 instance
 
 
 10. Create a simple Python application
