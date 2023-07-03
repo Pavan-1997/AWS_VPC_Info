@@ -6,19 +6,19 @@
 
 2. Click on create VPC
 
-Go with VPC and more
-
-Visualize what the AWS creates for you
-
-Give a name for the project
-
-NAT gateway - 1 per AZ
-
-VPC endpoints - None
-
-Click on Create VPC
-
-Now AWS creates a bunch of resources
+	Go with VPC and more
+	
+	Visualize what the AWS creates for you
+	
+	Give a name for the project
+	
+	NAT gateway - 1 per AZ
+	
+	VPC endpoints - None
+	
+	Click on Create VPC
+	
+	Now AWS creates a bunch of resources
 
 
 3. Goto EC2 and on the left pane search for Auto-Scaling groups
