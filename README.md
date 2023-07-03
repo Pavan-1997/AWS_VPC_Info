@@ -198,3 +198,15 @@ python3 -m http.server 8000
 
 
 14. Access the ALB DNS name
+
+   You should be able to view the applications hosted on both the instances by refreshing the LB shown as below:
+   
+![LB1](https://github.com/Pavan-1997/AWS_VPC_LB_ASG_Bastion/assets/32020205/396f5ccc-9603-49e5-9113-02c973eaaa14)
+(This is on EC2 instance 1 in a private subnet) 
+
+![LB2](https://github.com/Pavan-1997/AWS_VPC_LB_ASG_Bastion/assets/32020205/fffbd86c-d0b5-4d87-aeaf-b637e3833a82)
+(This is on EC2 instance 2 in a private subnet) 
+
+   
+
+   
