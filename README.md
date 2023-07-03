@@ -131,9 +131,9 @@ sudo ssh -i AWSKEYPAIR.pem ubuntu@10.0.153.204
 
 10. Create a simple Python application
 
-vim index.html
-
-Add the below and save it
+	vim index.html
+	
+	Add the below and save it
 ```
 <!DOCTYPE html>
 <html>
