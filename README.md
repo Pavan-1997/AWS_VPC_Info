@@ -135,7 +135,6 @@ vim index.html
 
 Add the below and save it
 ```
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -153,9 +152,9 @@ Add the below and save it
 python3 -m http.server 8000
 ```
 
-(Creates a HTTP service for running the HTML)
-
-Similarly do the Step 10. on another EC2 instance and start the HTTP service change the HTML content "This is Pavan - 2"
+	(Creates a HTTP service for running the HTML)
+	
+	Similarly do the Step 10. on another EC2 instance and start the HTTP service change the HTML content "This is Pavan - 2"
 
 
 11. Now goto Load Balancer from AWS Console
