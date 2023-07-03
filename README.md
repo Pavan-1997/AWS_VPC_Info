@@ -148,13 +148,13 @@ sudo ssh -i AWSKEYPAIR.pem ubuntu@10.0.153.204
 </body>
 </html>
 ```
+
 ```
 python3 -m http.server 8000
 ```
+   Creates a HTTP service for running the HTML
 
-	(Creates a HTTP service for running the HTML)
-	
-	Similarly do the Step 10. on another EC2 instance and start the HTTP service change the HTML content "This is Pavan - 2"
+   Similarly do the Step 10. on another EC2 instance and start the HTTP service change the HTML content "This is Pavan - 2"
 
 
 11. Now goto Load Balancer from AWS Console
